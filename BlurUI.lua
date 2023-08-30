@@ -1,5 +1,6 @@
+local module = {}
 
-function BlurFrame(Frame)
+function module:BlurFrame(Frame)
 	
 	task.spawn(function()
 	
@@ -193,3 +194,4 @@ function BlurFrame(Frame)
 	end)
 end
 
+return module
