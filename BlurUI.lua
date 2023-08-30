@@ -1,6 +1,5 @@
-local module = {}
 
-module.BlurFrame(Frame)
+function BlurFrame(Frame)
 	
 	task.spawn(function()
 	
@@ -194,4 +193,3 @@ module.BlurFrame(Frame)
 	end)
 end
 
-return module
